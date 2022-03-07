@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    ~ This file is part of Battery Manager.
+    ~
+    ~ Battery Manager is free software: you can redistribute it and/or modify
+    ~ it under the terms of the GNU General Public License as published by
+    ~ the Free Software Foundation, as either version 3 of the License, or
+    ~ (at your own option) any other version.
+    ~
+    ~ Battery Manager is distributed in hope that it will be useful,
+    ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+    ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    ~ GNU General Public License for more details.
+    ~
+    ~ You should have received a copy of the GNU General Public License
+    ~ along with Battery Manager. If not, see <https://www.gnu.org/licenses/>.
+    ~
+    ~ Copyright (C) 2022 Battery Manager Contributors
+-->
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="ifRoom"
+        android:title="Save"
+        />
+    <item
+        android:id="@+id/menu_scroll_top"
+        app:showAsAction="never"
+        android:title="Scroll to top"
+        />
+    <item
+        android:id="@+id/menu_scroll_down"
+        app:showAsAction="never"
+        android:title="Scroll to bottom"
+        />
+    <item
+        android:id="@+id/menu_clear"
+        app:showAsAction="never"
+        android:title="Clear log"
+        />
+    <item
+        android:id="@+id/menu_word_wrap"
+        android:checkable="true"
+        android:checked="false"
+        android:title="Enable word wrap"
+        />
+</menu>
